@@ -126,7 +126,8 @@
 }
 /*  */
 #card-section {
-    background-color: var(--gray-color);
+    background-color:  #d3d3d3;
+    padding-bottom: 2rem;
 }
 #card-section .container .cards{
     display: grid;
@@ -162,12 +163,8 @@ margin-bottom: 27px;
 .card .card-content .card-para{
     padding: 2rem 1rem;
     font-size: 10px;
-    background-color: var(--light-color);
+    background-color: #fff
 }
 .card .card-content .card-para .card_para_2{
-    font-size: 18px;
+    font-size: 15px;
 }
-
-
-
-

@@ -298,8 +298,26 @@ width: 30px;
 
 /* Card section */
 #card-section {
-    background-color: var(--gray-color);
+    background-color:  #d3d3d3;
+    padding-bottom: 2rem;
 }
+.card-heading{
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    padding-top:2rem;
+
+}
+.card-heading p:first-child{
+    color: var(--dark-color);
+    font-size: 24px;
+}
+.card-heading p:last-child{
+    font-style: italic;
+    color: var(--pink-color);
+    font-size: 20px;
+}
+
 #card-section .container .cards{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
@@ -329,13 +347,12 @@ width: 30px;
 }
 .card .card-content .card-para{
     padding: 2rem 1rem;
-    font-size: 14px;
-    background-color: var(--light-color);
+    font-size: 9px;
+    background-color: #fff;
 }
 .card .card-content .card-para .card_para_2{
-    font-size: 18px;
+    font-size: 16px;
 }
-
 
 
 
