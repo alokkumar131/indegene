@@ -9,7 +9,7 @@
 }
 @font-face{
     font-family: 'verdana';
-    src:url('./fonts/verdana.ttf');
+    src:url('../css/fonts/verdana.ttf');
 }
 *{
     margin: 0;
@@ -145,7 +145,7 @@ width: 30px;
 /* About Section */
 #about-section{
     min-height: 70vh;
-    background: url(/img/bg.png) no-repeat center center/cover;
+    background: url(../img/bg.png) no-repeat center center/cover;
 }
 #about-section .container{
     display: grid;
@@ -258,7 +258,7 @@ width: 30px;
 
 #testimony-section{
     min-height: 80vh;
-    background: url(/img/asphalt-1867667_1920.png) no-repeat center center/cover;
+    background: url('../img/asphalt-1867667_1920.png') no-repeat center center/cover;
 }
 #testimony-section .container .testmony{
     text-align: center;
