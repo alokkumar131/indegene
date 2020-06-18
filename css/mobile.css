@@ -168,3 +168,54 @@ margin-bottom: 27px;
 .card .card-content .card-para .card_para_2{
     font-size: 15px;
 }
+/* footer */
+.footer{
+    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+.footer .container{
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+}
+.footer .container p{
+padding:2rem 0;
+font-size: 24px;
+  }
+  .footer .container p:last-child{
+    padding:2rem 0;
+    font-size: 13px;
+      }
+form.example input[type=text] {
+    padding: 18px;
+    font-size: 11px;
+    /* border: 1px solid grey; */
+    float: left;
+    width: 60%;
+    color: #000;
+    background: #f1f1f1;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  form.example button {
+    float: left;
+    width: 40%;
+    padding: 18px;
+    background: #b59877;
+    color: white;
+    font-size: 17px;
+    /* border: 1px solid grey; */
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 11px;
+  }
+  
+  
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
