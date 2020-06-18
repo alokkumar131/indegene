@@ -331,10 +331,10 @@ width: 30px;
 }
 .card .card-content{
     display: grid;
-    grid-template-columns: .5fr 2fr;
+    grid-template-columns: 0fr 5fr;
     width: 100%;
     margin-top:-6px;
-    height: 150px;
+    min-height: 150px;
 }
 .card .card-content .date{
     background-color: var(--p-light-color);
@@ -346,12 +346,12 @@ width: 30px;
   font-size: 40px;
 }
 .card .card-content .card-para{
-    padding: 2rem 1rem;
+    padding: 2rem 0.5rem;
     font-size: 9px;
     background-color: #fff;
 }
 .card .card-content .card-para .card_para_2{
-    font-size: 16px;
+    font-size: 13px;
 }
 
 /* footer */
@@ -403,3 +403,62 @@ form.example input[type=text] {
     clear: both;
     display: table;
   }
+@media (max-width:1024px){
+    #card-section {
+        background-color:  #d3d3d3;
+        padding-bottom: 2rem;
+    }
+    .card-heading{
+        text-align: center;
+        margin: auto;
+        overflow: hidden;
+        padding-top:2rem;
+    
+    }
+    .card-heading p:first-child{
+        color: var(--dark-color);
+        font-size: 24px;
+    }
+    .card-heading p:last-child{
+        font-style: italic;
+        color: var(--pink-color);
+        font-size: 20px;
+    }
+    
+    #card-section .container .cards{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .card {
+    
+        padding:2rem;
+    }
+    .card .card-content{
+        display: grid;
+        grid-template-columns: 35% 65%;
+        width: 100%;
+        margin-top:-6px;
+        min-height: 150px;
+    }
+    .card .card-content .date{
+        background-color: var(--p-light-color);
+        padding: 1.5rem 1rem;
+        text-align: center;
+        font-size: 9px;
+        color: var(--primary-color);
+    }
+    .card .card-content .date .dt{
+      font-size: 17px;
+    }
+    .card .card-content .card-para{
+        padding: 2rem 0.5rem;
+        font-size: 8px;
+        background-color: #fff;
+    }
+    .card .card-content .card-para .card_para_2{
+        font-size: 13px;
+    }
+}
