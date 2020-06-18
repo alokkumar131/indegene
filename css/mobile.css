@@ -1,0 +1,119 @@
+#main-nav{
+    height: 60px;
+}
+#main-nav .logo{
+    width: 130px;
+}
+
+#main-nav .social{
+    display: none;
+}
+#main-nav .menu-items .menu-txt{
+     display: none;
+}
+
+/* Hero section */
+#hero-section .container .hero-text .heading{
+    font-size: 23px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+#hero-section .container .hero-text .subheading{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+#hero-section .container .hero-text .cta1{
+    margin-bottom: 15px;
+    height: 42px;
+    width: 206px;
+    /* padding-bottom: 10px; */
+} 
+#hero-section .container .hero-text .cta2{
+    height: 42px;
+    width: 150px;
+} 
+
+/* About section */
+
+#about-section .container{
+    grid-template-columns: auto;
+}
+
+#about-section .container .about-text .heading{
+    font-size: 20px;
+}
+#about-section .container .about-text .subheading{
+    font-size: 17px;
+    padding-top: 7px;
+}
+
+#about-section .container .about-text  .cta2{
+    height: 42px;
+    width: 120px;
+    margin-top: 11px;
+} 
+
+/* Services */
+
+.service-heading{
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    padding-top:2rem;
+
+
+}
+.service-heading p:first-child{
+    color: var(--dark-color);
+    font-size: 24px;
+
+}
+.service-heading p:last-child{
+    font-style: italic;
+    color: var(--pink-color);
+    font-size: 20px;
+
+}
+#service .first_service{
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+#service .first_service .service-1,
+#service .first_service .service-2,
+#service .first_service .service-3{
+    padding: .75rem;
+
+}
+#service .first_service .service-1 p:first-child{
+    text-align: right;
+    padding-bottom: 8px;
+    color: var(--dark-color);
+    font-size: 18px;
+}
+#service .first_service .service-3 p:first-child{
+    padding-bottom: 8px;
+    color: var(--dark-color);
+    font-size: 18px;
+}
+#service .first_service .service-1 p,
+#service .first_service .service-3 p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--pink-color);
+}
+#service .first_service .service-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#service .first_service .service-2 img{
+    width: 100px;
+    padding: 0.5rem;
+} 
+
+
