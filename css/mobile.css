@@ -55,44 +55,22 @@
 
 /* Services */
 
-.service-heading{
-    text-align: center;
-    margin: auto;
-    overflow: hidden;
-    padding-top:2rem;
-
-
-}
-.service-heading p:first-child{
-    color: var(--dark-color);
-    font-size: 24px;
-
-}
 .service-heading p:last-child{
     font-style: italic;
     color: var(--pink-color);
     font-size: 20px;
-
 }
 #service .first_service{
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-    display: grid;
+
     grid-template-columns: auto;
     padding: 1rem;
     padding-bottom: 2rem;
 }
-#service .first_service .service-1,
-#service .first_service .service-2,
-#service .first_service .service-3{
-    padding: .75rem;
 
-}
 #service .first_service .service-1 p:first-child{
-    text-align: right;
+
     padding-bottom: 8px;
-    color: var(--dark-color);
+
     font-size: 18px;
 }
 #service .first_service .service-3 p:first-child{
@@ -102,18 +80,60 @@
 }
 #service .first_service .service-1 p,
 #service .first_service .service-3 p{
-    text-align: justify;
     font-size: 14px;
     line-height: 1.1;
-    color: var(--pink-color);
+
 }
-#service .first_service .service-2{
+/* Testimony */
+
+/* Testimony */
+.testimony-heading{
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 3rem;
+}
+.testimony-heading p{
+    color: var(--light-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#testimony-section{
+    min-height: 40vh;
+    background: url('../img/asphalt-1867667_1920.png') no-repeat center center/cover;
+}
+#testimony-section .container .testmony{
+    text-align: center;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
 }
-#service .first_service .service-2 img{
-    width: 100px;
-    padding: 0.5rem;
-} 
+#testimony-section .container .testmony{
+   max-width: 1000px;
+   margin: auto;
+   overflow: hidden;
+
+}
+#testimony-section .container .testmony1{
+    padding: 0rem;
+}
+#testimony-section .container .testmony1 img{
+    width: 48px;
+}
+
+#testimony-section .container .testmony1 .test_para_1{
+    font-size: 10px;
+    color: var(--light-color);
+}
+#testimony-section .container .testmony1 .test_para_2{
+    font-size: 13px;
+    color: var(--light-color);
+    padding-top: 1rem;
+    font-style: italic;
+}
 
 

@@ -159,10 +159,12 @@ width: 30px;
 #about-section .container .about-text .heading{
     font-size: 20px;
     color: var(--dark-color);
+    padding-bottom: 8px;
 }
 #about-section .container .about-text .subheading{
     font-size: 20px;
     color: var(--light-color);
+    padding-bottom: 10px;
 }
 #about-section .container .about-text button{
     height: 56px;
