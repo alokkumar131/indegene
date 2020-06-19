@@ -1,221 +1,233 @@
-#main-nav{
+#main-nav {
     height: 60px;
-}
-#main-nav .logo{
+  } 
+  #main-nav .logo {
     width: 130px;
-}
-
-#main-nav .social{
+  }
+  
+  #main-nav .social {
     display: none;
-}
-#main-nav .menu-items .menu-txt{
-     display: none;
-}
-
-/* Hero section */
-#hero-section .container .hero-text .heading{
+  }
+  
+  #main-nav .menu-items .menu-txt {
+    display: none;
+  }
+  
+  
+  /* Hero section */
+  
+  #hero-section .container .hero-text .heading {
     font-size: 23px;
     padding-bottom: 10px;
     font-weight: bold;
-}
-#hero-section .container .hero-text .subheading{
+  }
+  
+  #hero-section .container .hero-text .subheading {
     font-size: 16px;
     padding-bottom: 10px;
-}
-#hero-section .container .hero-text .cta1{
+  }
+  
+  #hero-section .container .hero-text .cta1 {
     margin-bottom: 15px;
     height: 42px;
     width: 206px;
     /* padding-bottom: 10px; */
-} 
-#hero-section .container .hero-text .cta2{
+  }
+  
+  #hero-section .container .hero-text .cta2 {
     height: 42px;
     width: 150px;
-} 
-
-/* About section */
-
-#about-section .container{
+  }
+  
+  
+  /* About section */
+  
+  #about-section .container {
     grid-template-columns: auto;
-}
-
-#about-section .container .about-text .heading{
+  }
+  
+  #about-section .container .about-text .heading {
     font-size: 20px;
-}
-#about-section .container .about-text .subheading{
+  }
+  
+  #about-section .container .about-text .subheading {
     font-size: 17px;
     padding-top: 7px;
-}
-
-#about-section .container .about-text  .cta2{
+  }
+  
+  #about-section .container .about-text .cta2 {
     height: 42px;
     width: 120px;
     margin-top: 11px;
-} 
-
-/* Services */
-
-.service-heading p:last-child{
+  }
+  
+  
+  /* Services */
+  
+  .service-heading p:last-child {
     font-style: italic;
     color: var(--pink-color);
     font-size: 20px;
-}
-#service .first_service{
-
+  }
+  
+  #service .first_service {
     grid-template-columns: auto;
     padding: 1rem;
     padding-bottom: 2rem;
-}
-
-#service .first_service .service-1 p:first-child{
-
+  }
+  
+  #service .first_service .service-1 p:first-child {
     padding-bottom: 8px;
-
     font-size: 18px;
-}
-#service .first_service .service-3 p:first-child{
+  }
+  
+  #service .first_service .service-3 p:first-child {
     padding-bottom: 8px;
     color: var(--dark-color);
     font-size: 18px;
-}
-#service .first_service .service-1 p,
-#service .first_service .service-3 p{
+  }
+  
+  #service .first_service .service-1 p,
+  #service .first_service .service-3 p {
     font-size: 14px;
     line-height: 1.1;
-
-}
-/* Testimony */
-
-/* Testimony */
-.testimony-heading{
+  }
+  
+  
+  /* Testimony */
+  
+  
+  /* Testimony */
+  
+  .testimony-heading {
     text-align: center;
     margin: auto;
     overflow: hidden;
     padding-top: 3rem;
-}
-.testimony-heading p{
+  }
+  
+  .testimony-heading p {
     color: var(--light-color);
     font-size: 20px;
     font-weight: bold;
-}
-
-#testimony-section{
+  }
+  
+  #testimony-section {
     min-height: 40vh;
     background: url('../img/asphalt-1867667_1920.png') no-repeat center center/cover;
-}
-#testimony-section .container .testmony{
+  }
+  
+  #testimony-section .container .testmony {
     height: 50vh;
-
-}
-
-#testimony-section .container .testmony1{
+  }
+  
+  #testimony-section .container .testmony1 {
     padding: 0rem;
-}
-#testimony-section .container .testmony1 img{
+  }
+  
+  #testimony-section .container .testmony1 img {
     width: 48px;
-}
-
-#testimony-section .container .testmony1 .test_para_1{
+  }
+  
+  #testimony-section .container .testmony1 .test_para_1 {
     font-size: 10px;
-
-}
-#testimony-section .container .testmony1 .test_para_2{
+  }
+  
+  #testimony-section .container .testmony1 .test_para_2 {
     font-size: 13px;
     padding-top: 1rem;
- 
-}
-/*  */
-#card-section {
-    background-color:  #d3d3d3;
+  }
+  
+  
+  /*  */
+  
+  #card-section {
+    background-color: #d3d3d3;
     padding-bottom: 2rem;
-}
-#card-section .container .cards{
+  }
+  
+  #card-section .container .cards {
     display: grid;
-    grid-template-columns:auto;
+    grid-template-columns: auto;
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
-
-
-}
-.card {
-
-padding:1rem;
-
-margin-bottom: 27px;
-}
-.card .card-content{
+  }
+  
+  .card {
+    padding: 1rem;
+    margin-bottom: 27px;
+  }
+  
+  .card .card-content {
     display: grid;
     grid-template-columns: .5fr 2fr;
     width: 100%;
-    margin-top:-6px;
+    margin-top: -6px;
     height: 150px;
-}
-.card .card-content .date{
+  }
+  
+  .card .card-content .date {
     background-color: var(--p-light-color);
     padding: 1.5rem 1rem;
     text-align: center;
     color: var(--primary-color);
-}
-.card .card-content .date .dt{
-  font-size: 40px;
-}
-.card .card-content .card-para{
+  }
+  
+  .card .card-content .date .dt {
+    font-size: 40px;
+  }
+  
+  .card .card-content .card-para {
     padding: 2rem 1rem;
     font-size: 10px;
     background-color: #fff
-}
-.card .card-content .card-para .card_para_2{
+  }
+  
+  .card .card-content .card-para .card_para_2 {
     font-size: 15px;
-}
-/* footer */
-.footer{
+  }
+  
+  
+  /* footer */
+  
+  .footer {
     padding: 2rem;
     background-color: #000;
     color: #fff;
-}
-.footer .container{
-  margin: auto;
-  overflow: hidden;
-  text-align: center;
-}
-.footer .container p{
-padding:2rem 0;
-font-size: 24px;
   }
-  .footer .container p:last-child{
-    padding:2rem 0;
+  
+  .footer .container {
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .footer .container p {
+    padding: 2rem 0;
+    font-size: 24px;
+  }
+  
+  .footer .container p:last-child {
+    padding: 2rem 0;
     font-size: 13px;
-      }
-form.example input[type=text] {
+  }
+  
+  form.example input[type=text] {
     padding: 18px;
     font-size: 11px;
-    /* border: 1px solid grey; */
-    float: left;
     width: 60%;
-    color: #000;
-    background: #f1f1f1;
     border-radius: 5px 0px 0px 5px;
   }
   
   form.example button {
-    float: left;
     width: 40%;
     padding: 18px;
-    background: #b59877;
-    color: white;
-    font-size: 17px;
     /* border: 1px solid grey; */
-    border-left: none;
-    cursor: pointer;
     border-radius: 0px 5px 5px 0px;
     font-size: 11px;
   }
   
-  
-  
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
+  .menu_panel {
+    padding: 1rem 1.5rem;
   }
